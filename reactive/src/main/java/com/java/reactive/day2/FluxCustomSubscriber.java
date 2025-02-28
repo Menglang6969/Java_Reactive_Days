@@ -40,5 +40,6 @@ public class FluxCustomSubscriber {
         ref.get().request(3);
         ref.get().cancel();
         ref.get().request(2);
+        ref.get().request(1);
     }
 }
