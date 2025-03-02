@@ -11,8 +11,6 @@ public class MonoToFlux {
 //        Flux<Integer> flux2=Flux.from(mono);
 //        getFluxName(flux2);
 
-
-
         //***** flux to mono **********
         Flux<Integer> flux3=Flux.just(1,2,3,4);
         //meet the first condition return
